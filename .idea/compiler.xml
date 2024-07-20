@@ -6,14 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="inner-gateway" />
-        <module name="inner-admin-service" />
         <module name="inner-platform" />
-        <module name="inner-driver-service" />
+        <module name="inner-boss" />
         <module name="inner-utils" />
         <module name="inner-order" />
         <module name="inner-model" />
         <module name="inner-common" />
+        <module name="api-driver" />
+        <module name="inner-map" />
+        <module name="inner-gateway" />
+        <module name="inner-admin-service" />
+        <module name="inner-driver-service" />
+        <module name="inner-dispatch" />
+        <module name="inner-passanger" />
         <module name="inner-passangers-service" />
       </profile>
     </annotationProcessing>

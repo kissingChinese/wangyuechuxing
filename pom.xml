@@ -17,6 +17,9 @@
         <module>inner-service/inner-driver-service</module>
         <module>inner-platform</module>
         <module>inner-order</module>
+        <module>inner-map</module>
+        <module>inner-dispatch</module>
+        <module>inner-api</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
