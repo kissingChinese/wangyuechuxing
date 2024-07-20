@@ -1,0 +1,9 @@
+server:
+  port: 9011
+spring:
+  application:
+    name: order  #微服务的名称
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

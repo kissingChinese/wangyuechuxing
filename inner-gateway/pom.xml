@@ -10,7 +10,13 @@
     </parent>
 
     <artifactId>inner-gateway</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+            <version>3.1.8</version>
+        </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>

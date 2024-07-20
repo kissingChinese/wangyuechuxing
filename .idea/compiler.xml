@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="inner-gateway" />
+        <module name="inner-admin-service" />
+        <module name="inner-platform" />
+        <module name="inner-driver-service" />
+        <module name="inner-utils" />
+        <module name="inner-order" />
+        <module name="inner-model" />
+        <module name="inner-common" />
+        <module name="inner-passangers-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

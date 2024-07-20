@@ -7,14 +7,10 @@
         <groupId>com.example.meltykiss</groupId>
         <artifactId>wangyuechuxing</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>inner-service</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>inner-admin-service</module>
-        <module>inner-passangers-service</module>
-    </modules>
+    <artifactId>inner-driver-service</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
