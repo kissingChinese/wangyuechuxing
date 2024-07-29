@@ -12,6 +12,13 @@
 
     <artifactId>inner-driver-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.example.meltykiss</groupId>
+            <artifactId>inner-utils</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>

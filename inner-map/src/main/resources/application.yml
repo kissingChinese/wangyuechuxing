@@ -1,0 +1,13 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: inner-map
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+#配置腾讯地图的id
+tenxun:
+  
