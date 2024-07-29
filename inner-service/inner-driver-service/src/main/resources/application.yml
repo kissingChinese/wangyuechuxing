@@ -7,3 +7,9 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+  datasource:
+    driver-class-name: com.alibaba.druid.proxy.DruidDriver
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/driver?characterEncoding=utf-8&serverTimezone=GMT%2B8
+      username: root
+      password: root

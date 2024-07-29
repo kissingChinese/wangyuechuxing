@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * @Author: kissChinese
- * @CreateTime: 2024-07-29
+ * @CreateTime:2024-06-29
  * @Description: 乘客计价规则
  * @Version: 1.0
  */
