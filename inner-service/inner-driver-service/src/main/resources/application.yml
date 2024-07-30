@@ -2,7 +2,7 @@ server:
   port: 9002
 spring:
   application:
-    name: driver  #微服务的名称
+    name: driver-service  #微服务的名称
   cloud:
     nacos:
       discovery:

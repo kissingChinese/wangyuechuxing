@@ -11,6 +11,6 @@ import lombok.Data;
 
 @Data
 public class OrderDto extends BaseDto {
-    final public String phone;
-    final public String adress;
+     public String phone;
+     public String adress;
 }

@@ -11,10 +11,6 @@ import lombok.Data;
  */
 
 public class BaseDto {
-    final public Integer pageSize;
-    final public Integer currentPage;
-    BaseDto(Integer pageSize, Integer currentPage) {
-        this.pageSize = pageSize;
-        this.currentPage = currentPage;
-    }
+     public Integer pageSize;
+     public Integer currentPage;
 }

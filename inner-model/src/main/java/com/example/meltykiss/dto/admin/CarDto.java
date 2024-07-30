@@ -11,6 +11,6 @@ import lombok.NoArgsConstructor;
  */
 @Data
 public class CarDto extends BaseDto{
-    final public Integer carNo;
-    final public String address;
+     public Integer carNo;
+     public String address;
 }

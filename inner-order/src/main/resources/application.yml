@@ -7,3 +7,21 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+  datasource:
+    driver-class-name: com.alibaba.druid.proxy.DruidDriver
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/order?characterEncoding=utf-8&serverTimezone=GMT%2B8
+      username: root
+      password: root
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    database: 0
+  #feign的配置
+  feign:
+    client:
+      config:
+        default:
+          connectTimeout: 3000
+          readTimeout: 5000

@@ -10,6 +10,6 @@ import lombok.Data;
  */
 @Data
 public class DriverUserDto extends BaseDto {
-    final public String address;
-    final public String phone;
+     public String address;
+     public String phone;
 }

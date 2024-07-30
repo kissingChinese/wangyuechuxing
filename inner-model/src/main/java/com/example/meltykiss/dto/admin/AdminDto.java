@@ -10,6 +10,6 @@ import lombok.Data;
  */
 @Data
 public class AdminDto {
-    final public Integer UserName;
-    final  public Integer Password;
+     public Integer UserName;
+     public Integer Password;
 }
